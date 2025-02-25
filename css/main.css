@@ -1,6 +1,6 @@
 @font-face {
   font-family: "HankenGrotesk";
-  src: url("/assests/fonts/HankenGrotesk-VariableFont_wght.ttf")
+  src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
     format("truetype");
   font-weight: 400 900;
   font-style: normal;
@@ -81,7 +81,6 @@ main {
 }
 
 .summary-section > ul li {
-  background-color: rgba(255, 85, 85, 0.05);
   display: flex;
   padding: 1rem;
   border-radius: 12px;
@@ -100,7 +99,6 @@ main {
 }
 
 .summary-section > ul li h4 {
-  color: #ff5555;
   font-weight: 600;
 }
 
@@ -124,4 +122,24 @@ button {
   font-size: 1.185rem;
   font-weight: 600;
   margin-top: 1.5rem;
+}
+
+.red {
+  color: #ff5555;
+  background-color: rgba(255, 85, 85, 0.05);
+}
+
+.yellow {
+  color: #ffb21e;
+  background-color: rgba(255, 178, 30, 0.05);
+}
+
+.green {
+  color: rgb(0, 187, 143);
+  background-color: rgba(0, 187, 143, 0.05);
+}
+
+.blue {
+  color: rgb(17, 37, 214);
+  background-color: rgba(17, 37, 214, 0.05);
 }
