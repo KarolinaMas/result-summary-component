@@ -61,3 +61,67 @@ main {
 .result-description > p {
   opacity: 0.8;
 }
+
+/* summary section */
+
+.summary-section {
+  padding: 0 2rem;
+}
+
+.summary-section > h3 {
+  color: #303b59;
+  font-weight: 700;
+  padding: 1.5rem 0;
+}
+
+.summary-section > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.summary-section > ul li {
+  background-color: rgba(255, 85, 85, 0.05);
+  display: flex;
+  padding: 1rem;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+
+.summary-section > ul li span {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.summary-section > ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+.summary-section > ul li h4 {
+  color: #ff5555;
+  font-weight: 600;
+}
+
+.summary-section .points {
+  display: flex;
+  font-weight: 700;
+  gap: 0.6rem;
+  color: rgba(48, 59, 89, 0.4);
+}
+
+.summary-section .points span {
+  color: rgba(48, 59, 89, 1);
+}
+
+button {
+  background-color: #303b59;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 128px;
+  font-size: 1.185rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
