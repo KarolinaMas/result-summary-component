@@ -1,0 +1,60 @@
+@media (min-width: 500px) {
+  :root {
+    font-size: 18px;
+  }
+
+  .result-points {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 736px) {
+  body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgba(17, 37, 214, 0.05);
+  }
+
+  main {
+    display: flex;
+    background-color: white;
+    width: 736px;
+  }
+
+  main,
+  .result-section {
+    border-radius: 2rem;
+  }
+
+  .result-section {
+    width: 50%;
+  }
+
+  .result-section .your-result {
+    font-size: 1.333rem;
+  }
+
+  .result-points > h1 {
+    font-size: 4rem;
+    margin-bottom: -16px;
+  }
+  .result-description > h2 {
+    font-size: 1.778rem;
+  }
+
+  .summary-section {
+    padding: 0;
+    min-width: 288px;
+  }
+
+  .summary-section > h3 {
+    font-size: 1.333rem;
+  }
+
+  button {
+    font-size: 1rem;
+    margin: 2.5rem 0;
+  }
+}
