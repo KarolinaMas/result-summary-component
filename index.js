@@ -3,7 +3,7 @@ import { data } from "./data.js";
 console.log(data);
 
 function renderListItems() {
-  const itemList = document.querySelector("ul");
+  const itemList = document.getElementById("js-summary-list");
 
   let html = "";
 
